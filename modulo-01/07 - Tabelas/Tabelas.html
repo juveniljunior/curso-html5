@@ -1,0 +1,58 @@
+<html lang="pt-br">
+    <header>
+        <title>Tabelas</title>
+        <meta charset="utf-8">
+
+    <style>
+        table, th, td{border: 1px solid #000;}
+        th, td{padding: 7px ;}
+        .nome{background-color: red;}
+        .email{background-color: green;}
+        .telefone{background-color: blue;}
+        .cargo{background-color: yellow;}
+    </style>
+
+    </header>
+    <body>
+        <h1>Tabelas</h1>
+    
+        <table>
+            <caption> Cadastro de clientes </caption>
+
+            <colgroup>
+                <col class="nome">
+                <col class="email">
+                <col class="telefone">
+                <col class="cargo">
+            </colgroup>
+            <thead>
+            <tr>
+                <th>Nome: </th>
+                <th>Email:</th>
+                <th>Telefone:</th>
+                <th>Cargo:</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>Junior</td>
+                <td>junior@gmail.com</td>
+                <td>(98) 98543-2421</td>
+                <td rowspan="2">Desenvolvedor Web</td>
+            </tr>
+            <tr>
+                <td>Juvenil</td>
+                <td>juvenil@gmail.com</td>
+                <td>(98) 98953-3256</td>
+            <tr>
+            </tbody>
+
+            <tfoot>
+                <td colspan="4">Total: 2</td>
+            </tr>
+            </tr>
+            </tfoot>
+        </table>
+    </body>
+</html>
